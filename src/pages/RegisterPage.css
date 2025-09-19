@@ -1,0 +1,102 @@
+.register-container {
+  display: flex;
+  height: 100vh;
+  background: #fdfaf4; /* light cream background */
+  align-items: center;
+  justify-content: center;
+}
+
+.register-card {
+  display: flex;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 950px;
+  max-width: 95%;
+}
+
+/* Left image */
+.register-left {
+  flex: 1;
+  background: url("https://images.unsplash.com/photo-1607746882042-944635dfe10e") center/cover no-repeat;
+  min-height: 100%;
+}
+
+/* Right form */
+.register-right {
+  flex: 1;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.register-logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.register-logo img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.register-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.register-subtitle {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.register-form input,
+.register-form select {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.register-form input:focus,
+.register-form select:focus {
+  border-color: #f5c20c;
+  outline: none;
+}
+
+.register-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: #f5c20c;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 15px;
+  color: white;
+}
+
+.register-btn:hover {
+  background: #f5c20c;
+}
+
+.register-footer {
+  margin-top: 20px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.register-footer a {
+  font-weight: 600;
+  color: #000;
+  text-decoration: none;
+  border-bottom: 2px solid #000;
+}
